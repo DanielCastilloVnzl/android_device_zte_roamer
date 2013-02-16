@@ -25,6 +25,10 @@ $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 PRODUCT_AAPT_CONFIG := normal mdpi ldpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
+# Avail Parts
+PRODUCT_PACKAGES := \
+	AvailParts
+
 # Graphics
 PRODUCT_PACKAGES := \
         gralloc.msm7x27 \
@@ -46,7 +50,7 @@ PRODUCT_PACKAGES += \
         librpc \
         gps.roamer
 
-# Blade specific
+# Avail specific
 PRODUCT_PACKAGES += \
         lights.roamer \
         sensors.roamer
