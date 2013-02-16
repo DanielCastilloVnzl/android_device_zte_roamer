@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 480
 TARGET_SCREEN_WIDTH := 320
 
-$(call inherit-product, device/zte/roamer/blade.mk)
+$(call inherit-product, device/zte/roamer/roamer.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
